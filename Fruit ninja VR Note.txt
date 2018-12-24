@@ -1,0 +1,50 @@
+3. Find environment, user can change enviroment such as, night or day:
+- In House
+- Market
+https://www.assetstore.unity3d.com/en/#!/content/63714
+https://www.assetstore.unity3d.com/en/#!/content/49962
+https://www.assetstore.unity3d.com/en/#!/content/56989
+https://www.assetstore.unity3d.com/en/#!/content/65679
+https://www.assetstore.unity3d.com/en/#!/content/25935
+https://www.assetstore.unity3d.com/en/#!/content/94605
+
+
+5. Find boss
+- plant tree
+- airplane
+- tank shoot fruit
+https://www.assetstore.unity3d.com/en/#!/content/52959
+https://www.assetstore.unity3d.com/en/#!/content/32933
+https://www.assetstore.unity3d.com/en/#!/content/20838
+https://www.assetstore.unity3d.com/en/#!/content/2558
+https://www.assetstore.unity3d.com/en/#!/content/13541
+https://www.assetstore.unity3d.com/en/#!/content/76251
+
+
+1. place the barels
+2. Shoot the fruit from barels
+3. run around the player
+4. when near the death (10% health) Boss will shoot harder
+5. Boss also shoot boom
+6. Boss might have 1-3 barels
+7. Boss spawner, might be 1-3 bosses
+8. Simple AI: Spawn -> 
+[play some anim] -> shoot -> 
+[play some anim] -> shoot -> 
+[run to new pos][define the pos, random pos] -> shoot -> 
+[play some anim] -> shoot -> 
+[run to new pos][define the pos, random pos] -> shoot
+
+State machine:
+1. Shoot
+2. Move
+3. Anim
+4. Idle
+
+BossManager -> controll state machine, and decide when to switch state
+
+
+path finding, ray
+
+
+FOLK: integrate with day dream

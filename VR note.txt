@@ -1,0 +1,26 @@
+A MEMs gyroscope is a rate of change device. As the device rotates in any its axis, you can see a change in rotation. An accelerometer only provides the force along the X,Y,and Z vectors, and cannot solve for "twist". By using both sensors, you can often implement what is referred to as a 6DOF (degrees of freedom) inertial system - or dead reckoning - allowing you to find the relative physical location of the device. (Note that all inertial systems drift, so its not stable in the long term).
+
+In short: 
+
+- gyroscopes measure rotation (called angular velocity), 
+- accelerometers measure translation (somehow like velocity, but it is not same as velocity).
+
+Gyro sensors, also known as angular rate sensors or angular velocity sensors. In simple terms, angular velocity is the change in rotational angle per unit of time. Angular velocity is generally expressed in deg/s (degrees per second).
+
+----------------------------------------------------------------------------------
+
+
+
+- Build grab object
+-> bug FixedJoin, replace = parent transform -> child
+
+bị mất laser -> sphere che laser, remove sphere là oke
+
+
+
+
+- Build the full flow from open door to take bath
+
+- VR hand -> leap motion
+
+18015000
